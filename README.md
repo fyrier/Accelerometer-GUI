@@ -9,6 +9,7 @@ Details
 This project uses Texas Instrumets eZ430-Chronos smartwatch. To manage the connections between the computer and the clock, [chronoslib](https://github.com/rlabs/ez430-chronos-python) from [rlabs](https://github.com/rlabs)  is used. 
 To recognize users and activities, the system uses [MEKA](http://meka.sourceforge.net/) to create a multi-target classifier, using Bcc and J48.
 There are several error messages missing that will be added over the next days, please follow the instructions presented on this document to avoid crashing the program.
+
 Prerequisites
 -------------
 Before using the GUI, there are a few conditions that need to be met:
