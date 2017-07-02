@@ -28,7 +28,7 @@ Once you execute the program and if all the prerequisites are met correctly, the
 - **Add user**: to incorporate a new user to the system and for it to be able to recognize both the user and the activity, data needs to be recorded to learn how the user performs the specified activities.
 - **Recognize user**: once a user is registered on the system, the program will receive data from the smartwatch for 30 seconds and will determine both the user and the activity.
 
-<img align="center" src="">
+<img align="center" src="https://github.com/fyrier/Accelerometer-GUI/blob/master/User%20Manual%20images/Pantalla%201.PNG">
 ### 2. Add user
 The selection of the option **Add user** on the main screen will take the user to this screen. Its function is simple: inform the user of the actions that need to be performed and for how long in order to register them into the system.
 On the screen the following message is shown: 
@@ -38,7 +38,8 @@ On the screen the following message is shown:
 Once the training period for an activity is finished, the message will indicate the user that they need to change the activity, and so on until data for all activities is collected.
 There is a **Cancel** button on this screen that will take the user back to the main screen if selected, terminating the training process. **The selection of this option interrupts the model update to include the new user in the system, so the system will not be able to recognize this user if they choose to try the Recognize user option**. For the user to be incorporated into the system, the training process needs to be completed for **all** activities.
 After data is recorded for every activity and the model is updated to register the new user, a message will indicate so and a Return button appears to take the user back to the main screen.
-<img align="center" src="">.
+<img align="center" src="https://github.com/fyrier/Accelerometer-GUI/blob/master/User%20Manual%20images/Pantalla%202.PNG">.
+<img align="center" src="https://github.com/fyrier/Accelerometer-GUI/blob/master/User%20Manual%20images/pantalla%202.1.PNG">.
 **Please make sure** that you activate the ACC transmission on the smartwatch once the training process starts.
 ### 3. Recognize user
 Once a user is registered on the system, they can be recognized if the select the option **Recognize user** on the main screen.        
@@ -49,6 +50,6 @@ Once the model is consulted, its result is showed in the screen with the followi
 *x* corresponds with the user ID, *x probability* with the probability that the data belongs to user x, *activity* is the activity that has been inferred by the system and *activity probability* with the probability that user x is performing that activity.
 With this message, a **Return** button appears on the screen to take the user back to the main screen.
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-<img align="center" src="">
-<img align="center" src="">
+<img align="center" src="https://github.com/fyrier/Accelerometer-GUI/blob/master/User%20Manual%20images/Patnalla%203.PNG">
+<img align="center" src="https://github.com/fyrier/Accelerometer-GUI/blob/master/User%20Manual%20images/pantalla%203.1.PNG">
 **Please make sure** that you activate the ACC transmission on the smartwatch once the training process starts.     
