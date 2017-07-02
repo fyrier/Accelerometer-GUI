@@ -63,4 +63,4 @@ With this message, a **Return** button appears on the screen to take the user ba
 
 <img align="center" src="https://github.com/fyrier/Accelerometer-GUI/blob/master/User%20Manual%20images/pantalla%203.1.PNG">
 
-**Please make sure** that you activate the ACC transmission on the smartwatch once the training process starts.     
+**Please make sure** that you activate the ACC transmission on the smartwatch once the recognition process starts.     
