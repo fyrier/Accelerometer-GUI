@@ -23,14 +23,18 @@ User manual
 As mentioned, this GUI presents a way to test user and activity recognition based on accelerometer data. To train the system, it gets user information using the smartwatch and stores it. MEKA will later use that file (data.arff) to generate the model. 
 Once one or more users are registered on the system they can be recognized by it performing any of the stated activities: resting, walking, running or jumping. More activities can be added by modifying the `main` method of the program, using Activity data type, assigning a new ID, name and training time to it. 
 Over the next sections, each screen and its options will be discussed.
+
 ### 1. Main screen
+
 Once you execute the program and if all the prerequisites are met correctly, the first screen that appears is the main screen. It presents the user with a text indicating where the user is ("User recognition") and a small text explaining the possible actions the user can perform. From the main screen there are two functions that can be accessed:
 
 - **Add user**: to incorporate a new user to the system and for it to be able to recognize both the user and the activity, data needs to be recorded to learn how the user performs the specified activities.
 - **Recognize user**: once a user is registered on the system, the program will receive data from the smartwatch for 30 seconds and will determine both the user and the activity.
 
 <img align="center" src="https://github.com/fyrier/Accelerometer-GUI/blob/master/User%20Manual%20images/Pantalla%201.PNG">
+
 ### 2. Add user
+
 The selection of the option **Add user** on the main screen will take the user to this screen. Its function is simple: inform the user of the actions that need to be performed and for how long in order to register them into the system.
 On the screen the following message is shown: 
 >"Training period for activity *x* (*name of the activity*) started. Please, perform this action for *time* seconds.
@@ -44,7 +48,9 @@ After data is recorded for every activity and the model is updated to register t
 <img align="center" src="https://github.com/fyrier/Accelerometer-GUI/blob/master/User%20Manual%20images/pantalla%202.1.PNG">
 
 **Please make sure** that you activate the ACC transmission on the smartwatch once the training process starts.
+
 ### 3. Recognize user
+
 Once a user is registered on the system, they can be recognized if the select the option **Recognize user** on the main screen.        
 When this option is selected, the message *Collecting user data. Please, stand by...*  appears on screen as well as a **Cancel** button to take the user back to the main screen. As soon as this option is selected, data will be recorded from the smartwatch to check with the generated model which user wears the smartwatch and the activity they are perfoming.
 Once the model is consulted, its result is showed in the screen with the following message:
