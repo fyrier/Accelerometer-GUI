@@ -18,6 +18,8 @@ Before using the GUI, there are a few conditions that need to be met:
  - Data is sent from the smartwatch to an USB Access Point that comes with it. Its drivers need to be installed in the system. **If you are using Windows** they need to be installed through troubleshoot mode, as they are not signed. Windows drivers can be found [here](http://www.ti.com/lit/zip/slac341) and Linux drivers can be found [here](http://www.ti.com/lit/zip/slac388). Once the drivers are installed, test that data is sent correctly from the smartwatch to the computer using the provided software by Texas Instruments (Control Center).
  - This program is developed using Python 2.7 and it has been tested on Windows, **it hasn't been tested yet on Linux**. To use it on Linux, the port needs to be changed on chronoslib from `COM3` to `/dev/ttyACM0`, present on the variable `PORT`.
  - To be able to use chronoslib, serial library from Python must be installed on the computer.
+ - To be able to access to MEKA algorithms, the /lib/ directory included on its code must be added to the project.
+
 User manual
 -------------
 As mentioned, this GUI presents a way to test user and activity recognition based on accelerometer data. To train the system, it gets user information using the smartwatch and stores it. MEKA will later use that file (data.arff) to generate the model. 
