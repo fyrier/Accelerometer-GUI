@@ -1,7 +1,7 @@
 Continuous authentication using Accelerometer data
 ===================
 
-This repository contains the Graphical User Interface for a program using accelerometer data to authenticate users and identify the activity that they are performing. It is based on my Bachelor's Thesis, where all the premises and testing done to back the concept are presented (it will be linked once it is published). This GUI provides a way to test user authentication based on accelerometer data.
+This repository contains the Graphical User Interface for a program using accelerometer data to authenticate users and identify the activity that they are performing. It is based on my Bachelor's Thesis, where all the premises and testing done to back the concept are presented (it can be found [here](https://e-archivo.uc3m.es/handle/10016/25731)). This GUI provides a way to test user authentication based on accelerometer data.
 
 ----------
 Details
